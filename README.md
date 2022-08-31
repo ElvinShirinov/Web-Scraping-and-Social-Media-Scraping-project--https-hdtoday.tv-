@@ -1,12 +1,13 @@
 ###Scrapy###
+
 There are two spiders in the spiders folder. Number 1 and 2. The first spider scrapes the links of the movies in the homepage. 
 The second one scrapes the details from each movie page.
 To run the spiders correctly, please, follow the instructions below:
-1) Open the whole Scrapy folder in your recommended software(VSCode, Pycharm)
-2) Open terminal and go to the folder directory.
-3) Run the code: scrapy crawl link_lists -O links.csv - this code will execute the first spider which will create 
+1. Open the whole Scrapy folder in your recommended software(VSCode, Pycharm)
+2. Open terminal and go to the folder directory.
+3. Run the code: scrapy crawl link_lists -O links.csv - this code will execute the first spider which will create 
 and .csv file with links.
-4) Now the code: scrapy crawl movies -o movies.csv - this code will execute the second spider which will scrape all the date 
+4. Now the code: scrapy crawl movies -o movies.csv - this code will execute the second spider which will scrape all the date 
 and create a csv file.
 
 ###Selenium###
